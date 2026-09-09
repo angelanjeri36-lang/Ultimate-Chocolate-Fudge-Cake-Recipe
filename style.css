@@ -1,0 +1,101 @@
+/* 1. Global Page Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fcfaf7; /* Warm off-white */
+    color: #332211; /* Deep chocolate brown for readable text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* 2. Recipe Card Container (Centers the content) */
+.recipe-container {
+    max-width: 650px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Soft, modern shadow */
+}
+
+/* 3. Typography Styles */
+#header {
+    text-align: center;
+    border-bottom: 2px solid #f2ece4;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #4a2c11; /* Rich chocolate brown */
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+h2 {
+    color: #6d421e;
+    border-bottom: 1px solid #f2ece4;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+/* 4. Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px auto;
+    border-radius: 8px; /* Smooth, rounded corners */
+}
+
+/* 5. Lists (Ingredients and Steps) */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* 6. Nutrition Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merges borders into clean single lines */
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #f2ece4;
+}
+
+th {
+    background-color: #6d421e;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: #fdfbf7; /* Subtle hover effect for rows */
+}
+
+/* 7. Footer Styles */
+#footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #f2ece4;
+    font-size: 0.9rem;
+    color: #776655;
+}
+
+#footer a {
+    color: #6d421e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
